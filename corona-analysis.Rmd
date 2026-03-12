@@ -1,11 +1,13 @@
 ---
 title: "corona virus beliefs analysis"
-output: html_document
+output:
+  html_document: default
+  word_document: default
 date: "2026-03-12"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
 library(dplyr)
 library(readr)
