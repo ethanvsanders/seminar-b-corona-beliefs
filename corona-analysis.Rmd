@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
 library(readr)
 
-d_coronavirus <- read_csv('../data/life-under-lockdown-wave2-extract.numbers')
+d_coronavirus <- read_csv('../data/life-under-lockdown-wave2-extract.csv')
 ```
 
 ## Hypothesis
